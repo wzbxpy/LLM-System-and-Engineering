@@ -1,17 +1,24 @@
-# Welcome to MkDocs
+# 大模型系统与工程
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 课程信息
+- **课程名称**：大模型系统与工程
+- **学年学期**：2025-2026学年 秋季学期
+- **上课教师**：[王智彬老师](https://wzbxpy.github.io/)
+- **时间地点**：测试时间，测试地点
 
-## Commands
+## 课程简介
+大模型系统与工程课程旨在介绍大规模语言模型（LLM）的基本原理、推理框架以及实际应用。通过本课程的学习，学生将掌握LLM的基本概念、推理流程以及如何使用vLLM等推理框架进行模型部署和应用。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 实验目录
+1. [实验一-vLLM推理框架使用](./testlab/实验一介绍.md)
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## 学术诚信
+本课程严格遵守学术诚信原则，所有实验和作业必须独立完成。抄袭、作弊等行为将受到严厉的学术处罚。请同学们自觉维护学术诚信，共同营造良好的学习氛围。
+## 联系方式
+如有任何问题，请通过以下方式联系我：
+- **邮箱**：
+email@email.com
+- **QQ**：
+123456789

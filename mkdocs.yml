@@ -2,3 +2,5 @@ site_name: LLM System and Engineering
 site_url: https://wzbxpy.github.io/LLM-System-and-Engineering
 theme:
   name: material
+extra_css:
+  - style.css
