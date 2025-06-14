@@ -1,13 +1,10 @@
-# 实验任务一：vLLM推理框架使用
+# Experiment 1：实验手册
 
-[测试链接](https://cdn.jsdelivr.net/gh/zhiweinju/nju-dl-lab-2025spring@main/docs/lab1/lab1.ipynb)
-
-## LLM推理原理基础
+## 实验内容
+本次实验课介绍LLM推理的基本原理和vLLM推理框架的使用。通过本节课的学习，学生将掌握LLM的基本概念、推理流程以及如何使用vLLM等推理框架进行模型部署和应用。
 
 LLM（Large Language Model）推理是指使用预训练的语言模型进行文本生成、理解等任务的过程。LLM通常具有数十亿甚至数千亿的参数，能够处理复杂的自然语言任务。
-
 LLM的基本原理：
-
 1. **模型架构**：LLM通常基于Transformer架构，使用自注意力机制来捕捉文本中的长距离依赖关系。
 
 2. **预训练与微调**：LLM通常先在大规模文本数据上进行预训练，然后在特定任务上进行微调，以提高模型的性能。
@@ -16,20 +13,32 @@ LLM的基本原理：
 
 4. **解码策略**：在生成文本时，常用的解码策略包括贪婪搜索、束搜索（Beam Search）和采样等，这些策略决定了生成文本的多样性和质量。
 
-## LLM推理框架vLLM简介
+### LLM推理框架vLLM简介
 
 vLLM是一个高性能的推理框架，旨在提供快速、可扩展的LLM推理服务。它支持丰富的模型，并提供了易于使用的API。
 
 **目标**
+
 本次实验是xxxxxx，实验目标为：
 
 1. 使用vLLM部署Qwen2-7B模型
 
 2. xxx。
 
-------
+## 实验PPT
+[此处上传PPT下载链接](https://cdn.jsdelivr.net/gh/zhiweinju/nju-dl-lab-2025spring@main/docs/lab1/lab1.ipynb)
 
-### **1. 环境准备**
+## 实验文件
+[课程1实验文件](https://cdn.jsdelivr.net/gh/zhiweinju/nju-dl-lab-2025spring@main/docs/lab1/lab1.ipynb)
 
-安装vLLM，请参考[vLLM安装指南](https://vllm.ai)
+## 提交要求
+实验报告需包含以下内容：
+1. 实验目的和背景介绍
+2. 实验步骤和方法
+3. 实验结果和分析
+4. 实验结论和体会
+实验报告需以PDF格式提交，命名格式为`实验1_学号_姓名.pdf`。请将报告上传至[测试链接]。
+
+ 
+
 
