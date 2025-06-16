@@ -13,9 +13,9 @@
 ## 课程目录
 得有课程目录，然后每节课有课程内容介绍，课程ppt，这节课相应的可选大项目，而不是这种实验的形式。
 
-1. [Lesson 1 - 测试课程标题1](./testlab/实验一介绍.md)
-2. [Lesson 2 - 测试课程标题2](./testlab/实验一介绍.md)
-3. [Lesson 3 - 测试课程标题3](./testlab/实验一介绍.md)
+1. [Lesson 1 - 测试课程标题1](./testlab/Lesson01.md)
+2. [Lesson 2 - 测试课程标题2](./testlab/Lesson01.md)
+3. [Lesson 3 - 测试课程标题3](./testlab/Lesson01.md)
 
 
 
