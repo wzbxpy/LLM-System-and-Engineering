@@ -41,7 +41,7 @@
 参考lesson 1的格式
 
 **加一下时间戳**
-1. [Lesson 1 - 测试课程标题1](./lessons/Lesson01.md)
+1. [Project 1 - 测试课程标题1](./Projects/project-yuhang.md)
 2. 
 
 
