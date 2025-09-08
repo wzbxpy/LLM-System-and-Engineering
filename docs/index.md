@@ -40,6 +40,9 @@
 
 参考lesson 1的格式
 
+## [论文列表](paper_list.md)
+
+
 **加一下时间戳**
 1. [Project 1 - 测试课程标题1](./Projects/project-yuhang.md)
 2. 
