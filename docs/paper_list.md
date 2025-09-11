@@ -47,7 +47,52 @@
 **todo by lsp**
 
 ## 分布式训练、推理（第八周）
-**todo by zyh**
+### 分布式训练方向
+
+- **Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism (2019)**  
+
+- **Megatron-LM: Reducing Activation Recomputation in Large Transformer Models (2021)**
+
+- **ZeRO: Memory Optimizations Toward Training Trillion Parameter Models (2020)**  
+   
+- **Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning (2022)**  
+
+- **FSDP: Fully Sharded Data Parallel (2023)**  
+
+- **MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs (2024)**
+
+- **Minder: Faulty Machine Detection for Large-scale Distributed Model Training (2025)**
+
+- **Towards LLM-Based Failure Localization in Production-Scale Networks (2025)**
+
+- **Recycle: Resilient Training of Large DNNs using Pipeline Adaptation (2024)**
+
+---
+
+### 分布式推理方向
+- **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)**  
+
+- **FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning (2023)**  
+
+- **Orca: A Distributed Serving System for Transformer-Based Generative Models (2023)**  
+
+- **Efficient Memory Management for Large Language Model Serving with PagedAttention (2023)**  
+
+- **Accelerating Large Language Model Decoding with Speculative Sampling (2023)**
+  
+- **Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve (2024)**  
+
+- **DistServe: Disaggregating Prefill and Decoding for LLM Serving (2024)**  
+
+- **Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention (2025)**
+
+- **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving (2024)**
+
+- **MegaScale-Infer: Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism (2025)**  
+
+- **LLMCompass: Enabling Efficient Hardware Design for Large Language Model Inference (2024)**
+
+- **AMALI: An Analytical Model for Accurately Modeling LLM Inference on Modern GPUs (2025)**
 
 ## 内存管理（第十周）
 **todo by zibo**
