@@ -33,6 +33,7 @@
 
 #### 王梓博，周宇航介绍研究内容
 （汇报人：王梓博）
+
 面向Ascend芯片的大规模模型训练性能剖析与系统优化 (汇报人：周宇航)
 
 
@@ -55,7 +56,7 @@
 
 ## 研究内容和项目
 1. [Project from 彭于波](./Project-pyb/README.md)
-2. [Project from 周宇航](./Project-pyb/project_zhou.md)
+2. [Project from 周宇航](./Project-pyb/project-zhou.md)
 
 
 
