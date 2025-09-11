@@ -1,45 +1,69 @@
-# Lesson 1：测试课程名称1
+# 大模型训练与推理性能建模与优化
 
-**注意：** lesson1相关内容为测试内容，作为模板。实际部署时请替换为实际课程内容。
+## 项目背景
 
-## 课程内容
-本节课介绍LLM推理的基本原理和vLLM推理框架的使用。通过本节课的学习，学生将掌握LLM的基本概念、推理流程以及如何使用vLLM等推理框架进行模型部署和应用。
+随着大规模语言模型（LLM）在各类自然语言处理任务中的广泛应用，模型的训练与推理效率成为制约其落地和推广的关键因素。如何对大模型的训练与推理过程进行性能建模，并据此进行系统优化，是当前学术界和工业界关注的热点问题。
 
-LLM（Large Language Model）推理是指使用预训练的语言模型进行文本生成、理解等任务的过程。LLM通常具有数十亿甚至数千亿的参数，能够处理复杂的自然语言任务。
+## 已有工作
 
-LLM的基本原理：
+- **Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization (ATC 2025)** (大模型训练性能瓶颈分析与优化)
+- **Squeezing Operator Performance Potential for the Ascend Architecture (ASPLOS 2025)** （算子性能建模与优化）
 
-1. **模型架构**：LLM通常基于Transformer架构，使用自注意力机制来捕捉文本中的长距离依赖关系。
+## 研究课题
+初步计划从事以下研究，后期可能会根据实际调研和项目需求进行调整。
 
-2. **预训练与微调**：LLM通常先在大规模文本数据上进行预训练，然后在特定任务上进行微调，以提高模型的性能。
+**大模型推理性能建模与自动调优**：
+在大模型推理部署过程中，性能调优面临以下几个方面的挑战：
+首先，性能优化目标并不统一。具体来说，推理系统需要在延迟和吞吐之间进行权衡，如何根据不同的业务需求，合理定义并动态调整优化目标，缺乏通用方案。
+其次，性能影响因素复杂且高度耦合。推理效率受到多种因素的共同作用，包括负载特征（输入/输出长度分布，请求数量等）、模型与量化（模型架构，参数量，量化精度）、系统与硬件配置（加速器数量与类型，内存大小，带宽）、软件与算法策略（并行策略、批处理调度、KV缓存管理、算子融合、是否分离部署）等，缺乏全面系统的分析以确定性能瓶颈。
+最后，当前优化方法低效且成本高昂。目前业界普遍依赖专家经验进行手动试错式调优，但存在根本缺陷。实际部署中，影响因素的参数组合呈指数级增长，每一种组合的性能差异巨大。同时每轮参数验证都需要消耗数小时甚至更长的计算。因此该方案难以适应频繁变化的业务需求和系统环境。
+总的来说，现有的手动调优难以满足高效、可扩展的大模型推理部署需求。因此亟需一种适应多场景需求、自动识别关键性能瓶颈、智能搜索最优配置组合的推理性能自动寻优方案。
 
-3. **推理过程**：在推理阶段，模型接收输入文本，通过前向传播计算输出，生成预测结果。
+## 推荐论文
 
-4. **解码策略**：在生成文本时，常用的解码策略包括贪婪搜索、束搜索（Beam Search）和采样等，这些策略决定了生成文本的多样性和质量。
+### 分布式训练方向
 
-### LLM推理框架vLLM简介
+- **Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism (2019)**  
 
-vLLM是一个高性能的推理框架，旨在提供快速、可扩展的LLM推理服务。它支持丰富的模型，并提供了易于使用的API。
+- **Megatron-LM: Reducing Activation Recomputation in Large Transformer Models (2021)**
 
-**目标**
-测试呢绒
+- **ZeRO: Memory Optimizations Toward Training Trillion Parameter Models (2020)**  
+   
+- **Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning (2022)**  
 
-## 课程PPT
-[此处上传PPT下载链接](https://cdn.jsdelivr.net/gh/zhiweinju/nju-dl-lab-2025spring@main/docs/lab1/lab1.ipynb)
+- **FSDP: Fully Sharded Data Parallel (2023)**  
 
-## 论文阅读
-推荐4篇论文阅读，每篇10分钟
-顶会，近三年
+- **MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs (2024)**
 
-## Invited Talk
+- **Minder: Faulty Machine Detection for Large-scale Distributed Model Training (2025)**
 
+- **Towards LLM-Based Failure Localization in Production-Scale Networks (2025)**
 
-## 课程项目
+- **Recycle: Resilient Training of Large DNNs using Pipeline Adaptation (2024)**
 
-[实验链接](./testlab/Lesson 1_Experiment.md)
+---
 
+### 分布式推理方向
+- **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)**  
 
-[课程1实验](https://cdn.jsdelivr.net/gh/zhiweinju/nju-dl-lab-2025spring@main/docs/lab1/lab1.ipynb)
- 
+- **FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning (2023)**  
 
+- **Orca: A Distributed Serving System for Transformer-Based Generative Models (2023)**  
 
+- **Efficient Memory Management for Large Language Model Serving with PagedAttention (2023)**  
+
+- **Accelerating Large Language Model Decoding with Speculative Sampling (2023)**
+  
+- **Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve (2024)**  
+
+- **DistServe: Disaggregating Prefill and Decoding for LLM Serving (2024)**  
+
+- **Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention (2025)**
+
+- **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving (2024)**
+
+- **MegaScale-Infer: Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism (2025)**  
+
+- **LLMCompass: Enabling Efficient Hardware Design for Large Language Model Inference (2024)**
+
+- **AMALI: An Analytical Model for Accurately Modeling LLM Inference on Modern GPUs (2025)**
