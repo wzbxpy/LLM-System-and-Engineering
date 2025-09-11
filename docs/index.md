@@ -51,7 +51,7 @@
 ## [论文列表](paper_list.md)
 
 
-**加一下时间戳**
+## 研究内容和项目
 1. [Project from 彭于波](./Project-pyb/README.md)
 2. 
 
