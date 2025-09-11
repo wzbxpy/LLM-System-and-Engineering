@@ -1,6 +1,6 @@
 # 论文列表
 
-## 模型架构（前三周）
+## 模型架构（第三周）
 
 1. **Attention Is All You Need** (2017)
     - **作者**: Vaswani et al. (Google)
