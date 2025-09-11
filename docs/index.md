@@ -57,7 +57,7 @@
 ## 研究内容和项目
 1. [Project from 彭于波](./Project-pyb/README.md)
 2. [Project from 王梓博](./Project-KVCache/README.md)
-3. [Project from 周宇航](./Project-pyb/project-zhou.md)
+3. [Project from 周宇航](./Project-zhou/project-zhou.md)
 
 
 
