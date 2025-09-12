@@ -1,0 +1,8 @@
+[paper1](homework1/paper1.md)
+[paper2](homework1/paper2.md)
+[paper3](homework1/paper3.md)
+[paper4](homework1/paper4.md)
+[paper5](homework1/paper5.md)
+[paper6](homework1/paper6.md)
+[paper7](homework1/paper7.md)
+[paper8](homework1/paper8.md)
