@@ -37,11 +37,7 @@
 
 
 #### 王梓博，周宇航介绍研究内容
-[基于内存池优化的LLM推理系统（汇报人：王梓博）](./Project-KVCache/README.md)
-
-- [Slide1](./Project-KVCache/大模型推理流程介绍.pdf)
-
-- [Slide2](./Project-KVCache/fast25-Mooncake.pdf)
+[基于内存池优化的LLM推理系统（汇报人：王梓博）](./Project-KVCache/README.md) 📊 [**Slides1**](./Project-KVCache/大模型推理流程介绍.pdf) 📊 [**Slides2**](./Project-KVCache/fast25-Mooncake.pdf)
 
 面向Ascend芯片的大规模模型训练性能剖析与系统优化 (汇报人：周宇航) [项目介绍](./Project-zhou/项目介绍.pdf) [大模型训练优化基础](./Project-zhou/大模型训练优化基础.pdf)
 
