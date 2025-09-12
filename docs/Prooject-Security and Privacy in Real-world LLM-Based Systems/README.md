@@ -49,7 +49,7 @@ LLM Agents 将“感知—规划—工具执行—反馈—记忆”闭环化，
 - **评测与取证困难**：长时序、多回合、多工具链路导致复现、问责与合规审计难度高。
 
 **推荐阅读（主流期刊/会议）**  
-- Yang et al., **NeurIPS 2024**. *Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents*. [论文链接](https://proceedings.neurips.cc/paper_files/paper/2024/file/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Paper-Conference.pdf)  
+- Yang et al., **NeurIPS 2024**. *Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents*. [论文链接](https://neurips.cc/virtual/2024/poster/95425)  
 - Deng et al., **ACM Computing Surveys 2025**. *AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways*. [论文链接](https://dl.acm.org/doi/10.1145/3716628)  
 - Huang et al., **ACL 2025**. *Efficient Universal Goal Hijacking with Semantics-guided Prompt Organization*. [论文链接](https://aclanthology.org/2025.acl-long.290.pdf)
 
