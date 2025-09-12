@@ -39,7 +39,7 @@
 #### 王梓博，周宇航介绍研究内容
 基于内存池优化的LLM推理系统（汇报人：王梓博）📊 [**Slides1**](./Project from 王梓博/大模型推理流程介绍.pdf) 📊 [**Slides2**](./Project from 王梓博/fast25-Mooncake.pdf)
 
-面向Ascend芯片的大规模模型训练性能剖析与系统优化 (汇报人：周宇航) [项目介绍](./Project-zhou/项目介绍.pdf) [大模型训练优化基础](./Project-zhou/大模型训练优化基础.pdf)
+面向Ascend芯片的大规模模型训练性能剖析与系统优化 (汇报人：周宇航) [项目介绍](./Project from 周宇航/项目介绍.pdf) [大模型训练优化基础](./Project from 周宇航/大模型训练优化基础.pdf)
 
 <!-- ## 课程目录
 得有课程目录，然后每节课有课程内容介绍，课程ppt，这节课相应的可选大项目，而不是这种实验的形式。
@@ -59,9 +59,9 @@
 
 
 ## 研究内容和项目
-1. [Project from 彭于波](./Project-pyb/README.md)
+1. [Project from 彭于波](./Project from 彭于波/README.md)
 2. [Project from 王梓博](./Project from 王梓博/README.md)
-3. [Project from 周宇航](./Project-zhou/README.md)
+3. [Project from 周宇航](./Project from 周宇航/README.md)
 
 
 
