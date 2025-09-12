@@ -86,8 +86,6 @@
 
 - **Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention (2025)**
 
-- **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving (2024)**
-
 - **MegaScale-Infer: Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism (2025)**  
 
 - **LLMCompass: Enabling Efficient Hardware Design for Large Language Model Inference (2024)**
@@ -95,4 +93,9 @@
 - **AMALI: An Analytical Model for Accurately Modeling LLM Inference on Modern GPUs (2025)**
 
 ## 内存管理（第十周）
-**todo by zibo**
+
+- **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving**
+
+- **CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving**
+
+- **CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion**
