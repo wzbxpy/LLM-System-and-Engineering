@@ -29,6 +29,7 @@
 
 审稿的论文列表见[审稿论文列表](homework1/paperlist.md)
 
+审稿的要求见 [Assignment 1: 论文审稿](homework1/readme.md)
 
 审稿模板已附于[作业提交网址](https://table.nju.edu.cn/dtable/forms/267ab5a3-5e36-4b09-970a-4f3ab4bc314d/)
 
