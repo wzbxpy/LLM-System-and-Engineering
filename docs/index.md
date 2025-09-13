@@ -60,10 +60,10 @@
 
 
 ## 研究内容和项目
-1. [Project from 彭于波](./Project from 彭于波/README.md)
-2. [Project from 王梓博](./Project from 王梓博/README.md)
-3. [Project from 周宇航](./Project from 周宇航/README.md)
-
+1. [大模型在通信中的应用（彭于波）](./Project from 彭于波/README.md)
+2. [基于内存池优化的LLM推理系统（王梓博）](./Project from 王梓博/README.md)
+3. [大模型训练与推理性能优化（周宇航）](./Project from 周宇航/README.md)
+4. [基于大型语言模型的现实世界系统中的安全(徐闽泽)](./Project-Security%20and%20Privacy%20in%20Real-world%20LLM-Based%20Systems/)
 
 
 ## 学术诚信
