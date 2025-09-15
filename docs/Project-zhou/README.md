@@ -36,7 +36,7 @@
 - [Transformer架构](https://space.bilibili.com/517221395/lists/2306922?type=season)
 - [分布式并行](https://space.bilibili.com/517221395/lists/2646919?type=season)
 - [集合通信](https://space.bilibili.com/517221395/lists/3130927?type=season)
-- [GPU原理](https://space.bilibili.com/517221395/lists/1282451?type=season)，
+- [GPU原理](https://space.bilibili.com/517221395/lists/1282451?type=season)
 - [GPU详解](https://space.bilibili.com/517221395/lists/1388713?type=season)
 
 ## 推荐论文
@@ -63,8 +63,6 @@
 - **Towards LLM-Based Failure Localization in Production-Scale Networks (2025)**
 
 - **Recycle: Resilient Training of Large DNNs using Pipeline Adaptation (2024)**
-
----
 
 ### 分布式推理方向
 - **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)**  
