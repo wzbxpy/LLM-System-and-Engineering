@@ -26,23 +26,7 @@
 
 因此，亟需一种能够自动识别性能瓶颈、智能搜索最优配置、适应多场景需求的大模型推理性能自动调优方案。
 
-## 推荐书籍/博客：
-- 《机器学习系统：设计和实现》
-- [MLSystem 入坑指南 —— 摸黑干活](https://fazzie-key.cool/2023/02/21/MLsys/)
-- [知乎相关博客：2025入坑ML sys 求意见? - 小松的回答 - 知乎](https://www.zhihu.com/question/7717321708/answer/1904210395952033872)
-- [2024年MLSys推荐关注列表 - 系统篇 - JerryYin777的文章 - 知乎](https://zhuanlan.zhihu.com/p/13621083399)
-
-## 推荐视频资源（科普向）：
-- [Transformer架构](https://space.bilibili.com/517221395/lists/2306922?type=season)
-- [分布式并行](https://space.bilibili.com/517221395/lists/2646919?type=season)
-- [集合通信](https://space.bilibili.com/517221395/lists/3130927?type=season)
-- [GPU原理](https://space.bilibili.com/517221395/lists/1282451?type=season)，
-- [GPU详解](https://space.bilibili.com/517221395/lists/1388713?type=season)
-
 ## 推荐论文
-
-### 综述
-- **Taming the Titans: A Survey of Efficient LLM Inference Serving (2025)**
 
 ### 分布式训练方向
 
