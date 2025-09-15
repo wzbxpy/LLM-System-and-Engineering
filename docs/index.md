@@ -29,6 +29,7 @@
 
 审稿的论文列表见[审稿论文列表](homework1/paperlist.md)
 
+审稿的要求见 [Assignment 1: 论文审稿](homework1/readme.md)
 
 审稿模板已附于[作业提交网址](https://table.nju.edu.cn/dtable/forms/267ab5a3-5e36-4b09-970a-4f3ab4bc314d/)
 
@@ -37,16 +38,16 @@
 
 
 #### 王梓博，周宇航介绍研究内容
-基于内存池优化的LLM推理系统（汇报人：王梓博）
+基于内存池优化的LLM推理系统（汇报人：王梓博）📊 [**Slides1**](./Project from 王梓博/大模型推理流程介绍.pdf) 📊 [**Slides2**](./Project from 王梓博/fast25-Mooncake.pdf)
 
-面向Ascend芯片的大规模模型训练性能剖析与系统优化 (汇报人：周宇航) [项目介绍](./Project-zhou/项目介绍.pdf) [大模型训练优化基础](./Project-zhou/大模型训练优化基础.pdf)
+面向Ascend芯片的大规模模型训练性能剖析与系统优化 (汇报人：周宇航) 📊 [**Slides1**](./Project from 周宇航/项目介绍.pdf) 📊 [**Slides2**](./Project from 周宇航/大模型训练优化基础.pdf)
 
 <!-- ## 课程目录
 得有课程目录，然后每节课有课程内容介绍，课程ppt，这节课相应的可选大项目，而不是这种实验的形式。
 
 1.	课程导论与大语言模型发展概况（6学时）**王梓博** 大模型系统在企业界学术界的关注+各个方向的简介（1节课），Transformer（梓博）+MoE+Mamba（中辉）（1节课）
 3.	LLM训练系统，模型并行，参数卸载技术（9学时）**周宇航** 训练原理forward/backward+框架（教同学怎么用），并行策略（**中辉辅助一下EP**），参数卸载（**梓博**）
-3.  KV cache与推理优化（3学时）**王梓博** KV cache的原理，cache管理
+4.  KV cache与推理优化（3学时）**王梓博** KV cache的原理，cache管理
 4.	基于多卡的LLM推理与系统部署（6学时）**李世鹏+洪泽涛** vllm介绍，推理优化最近工作
 5.	基于单卡外存的LLM推理系统（6学时）**张中辉** 
 6.	RAG与外部知识集成系统（6学时）**赵可泰+夏浩然**
@@ -59,10 +60,10 @@
 
 
 ## 研究内容和项目
-1. [Project from 彭于波](./Project-pyb/README.md)
-2. [Project from 王梓博](./Project-KVCache/README.md)
-3. [Project from 周宇航](./Project-zhou/README.md)
-
+1. [大模型在通信中的应用（彭于波）](./Project from 彭于波/README.md)
+2. [基于内存池优化的LLM推理系统（王梓博）](./Project from 王梓博/README.md)
+3. [大模型训练与推理性能优化（周宇航）](./Project from 周宇航/README.md)
+4. [基于大型语言模型的现实世界系统中的安全(徐闽泽)](./Project-Security%20and%20Privacy%20in%20Real-world%20LLM-Based%20Systems/)
 
 
 ## 学术诚信
