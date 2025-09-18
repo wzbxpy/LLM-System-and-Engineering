@@ -2,7 +2,7 @@
 
 ## 联系方式
 
-- **负责人**：赵可泰，[陈力峥](https://cookiecoolkid.github.io/)
+- **负责人**：[赵可泰]()，[陈力峥](https://cookiecoolkid.github.io/)
 - **邮箱**：502025330076@smail.nju.edu.cn & lizhengchen@smail.nju.edu.cn
 
 在信息检索与机器学习中，常见的做法是将文本、图像、视频、语音等非结构化数据，通过 **embedding 模型** 映射到高维向量空间。此时，数据之间的语义关系可以通过 **距离度量（如欧氏距离、余弦相似度）** 来刻画：相似的数据点在向量空间中往往距离较近。由此引出 **最近邻搜索（Nearest Neighbor Search, NNS）** 问题：给定一个查询向量，召回数据集中与其最接近的点。  
