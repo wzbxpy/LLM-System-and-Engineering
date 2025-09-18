@@ -1,7 +1,22 @@
 # 近似最近邻搜索（ANNS）
 
+## 联系方式
+
+- **负责人**：赵可泰，[陈力峥](https://cookiecoolkid.github.io/)
+- **邮箱**：502025330076@smail.nju.edu.cn & lizhengchen@smail.nju.edu.cn
+
 在信息检索与机器学习中，常见的做法是将文本、图像、视频、语音等非结构化数据，通过 **embedding 模型** 映射到高维向量空间。此时，数据之间的语义关系可以通过 **距离度量（如欧氏距离、余弦相似度）** 来刻画：相似的数据点在向量空间中往往距离较近。由此引出 **最近邻搜索（Nearest Neighbor Search, NNS）** 问题：给定一个查询向量，召回数据集中与其最接近的点。  
 然而，当数据规模达到百万、甚至十亿级别，同时维度上百甚至上千时，精确最近邻搜索的代价极其高昂，无法满足低延迟应用需求。为此提出了 **近似最近邻搜索（Approximate Nearest Neighbor Search, ANNS）**，它在保证高召回率的同时显著降低搜索时间和存储成本，成为现代 **大规模向量检索系统** 的核心技术。  
+
+随着 **大语言模型（LLM）** 与 **多模态模型** 的发展，ANNS 已成为其外部知识接入与语义检索的关键技术。
+
+- 在 **RAG（Retrieval-Augmented Generation）** 中，ANNS 负责从向量数据库中检索相关知识，支撑 LLM 生成更准确的回答。  
+- 在 **多模态检索** 中，ANNS 为跨模态 embedding 提供统一的索引与匹配能力。  
+
+
+<div align="center">
+  <img src="img1.png" alt="img">
+</div>
 
 近年来，ANNS 的主流研究方法大致有以下几种：
 
@@ -15,16 +30,6 @@
 > - S. Jayaram Subramanya, F. Devvrit, et al., **NeurIPS 2019**. *DiskANN: Fast Accurate Billion-Point Nearest Neighbor Search on a Single Node*.  
 > - M Wang, X Xu, Q Yue, Y Wang., **VLDB 2021**. *A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search*
 
----
-
-## ANNS 与 LLM
-
-![img](img1.png)
-
-随着 **大语言模型（LLM）** 与 **多模态模型** 的发展，ANNS 已成为其外部知识接入与语义检索的关键技术。
-
-- 在 **RAG（Retrieval-Augmented Generation）** 中，ANNS 负责从向量数据库中检索相关知识，支撑 LLM 生成更准确的回答。  
-- 在 **多模态检索** 中，ANNS 为跨模态 embedding 提供统一的索引与匹配能力。  
 
 ---
 
