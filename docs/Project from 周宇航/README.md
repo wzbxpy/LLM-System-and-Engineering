@@ -1,8 +1,8 @@
 # 大模型训练与推理性能优化
 
 ## 联系方式
-[周宇航](https://njuzyh.github.io/)
-- **个人主页**: https://njuzyh.github.io/
+
+- **负责人**：[周宇航](https://njuzyh.github.io/)
 - **邮箱**: yuhangzhou@smail.nju.edu.cn
 - **QQ**: 1223870886
 
