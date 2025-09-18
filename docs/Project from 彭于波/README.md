@@ -5,7 +5,7 @@
 ![img](img1.png)
 
 **代表性成果：**  
-- [1] Y. Peng, L. Xiang, K. Yang, et al. *Simac: A semantic-driven integrated multimodal sensing and communication framework*, IEEE Journal on Selected Areas in Communications, 2025. (大修)  
+- [1] Y. Peng, L. Xiang, K. Yang, et al. *Simac: A semantic-driven integrated multimodal sensing and communication framework*, IEEE Journal on Selected Areas in Communications, 2025.
 - [2] Y. Peng, L. Xiang, K. Yang, et al. *Semantic communications with computer vision sensing for edge video transmission*, IEEE Transactions on Mobile Computing, 2025. (大修)  
 
 ---
@@ -37,9 +37,12 @@
 ### 1. 弱网视频通话场景的极低码率AI视频编解码  
 本课题聚焦在弱网环境下的视频通话体验提升，目标是研发一种极低码率下仍能保持可感知质量的AI视频编解码方法。研究将通过语义压缩与生成模型相结合，将视频信号转化为紧凑的语义特征进行传输，并在接收端通过生成网络重建高质量视频，从而显著降低带宽占用并保证实时性。  
 
-### 2. 基于Agent的自适应设备接入  
-本课题旨在构建一个基于智能Agent的自适应设备接入策略，通过状态感知和智能决策机制动态选择最优的感知设备与通信链路。研究重点在于利用大模型或强化学习驱动的推理方法，对环境状态、任务需求和网络负载进行联合分析，避免冗余接入和无效传输，从而提升多设备协同下的感知准确率与通信效率。  
-
-### 3. 水下语义通信的实物仿真系统  
+### 2. 水下语义通信的实物仿真系统  
 本课题拟设计并搭建一个面向水下环境的语义通信实验平台，利用实际声学或光学信道对语义信息传输过程进行仿真验证。研究将聚焦水下信道噪声强、带宽窄的特点，开发适应性的语义提取、压缩与重建算法，并通过实物系统测试验证其在水下监测、通信和协同任务中的可行性与性能优势。  
+
+### 3. 面向多模态ISAC的基座大模型 
+本课题拟设计并实现一个面向多模态通感一体化的基座大模型，以处理任意模态的感知数据并用于下游通感任务。研究将聚焦于真实的多模态数据采集、基于MoE架构的大模型设计、以及实物平台的搭建。
+
+### 4. 大模型在边缘设备上的高效部署  
+本课题拟围绕大语言模型的轻量化与本地化部署展开研究，旨在解决其在资源受限环境中运行的挑战。研究内容包括轻量化基本原理与方法的学习，常见轻量化工具和推理框架的应用（如 PyTorch Quantization、TensorRT、ONNX Runtime），以及对开源大模型进行剪枝、量化、蒸馏等处理后部署到本地设备完成推理任务。项目将对比分析轻量化前后在准确率、推理速度和显存占用等方面的差异，最终形成从算法到工程部署的完整实验报告。
 
