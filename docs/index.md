@@ -6,7 +6,7 @@
 - **学年学期**：2025-2026学年 秋季学期
 - **上课教师**：[王智彬](https://wzbxpy.github.io/) [孟晴开]() [向路平]()
 - **邀请专家**：[徐闽泽]()
-- **助教**：[周宇航](https://njuzyh.github.io/) [王梓博](https://wangzb.site/) [彭于波]() [李世鹏]() [赵可泰]()
+- **助教**：[周宇航](https://njuzyh.github.io/) [王梓博](https://wangzb.site/) [彭于波]() [李世鹏]() [赵可泰]() [张中辉]() [刘复良]()
 - **时间地点**：每周五下午2点到5点。南雍-西311。
 
 <!-- ## 课程目标
@@ -65,7 +65,7 @@
 3. [大模型训练与推理性能优化（周宇航）](./Project from 周宇航/README.md)
 4. [基于大型语言模型的现实世界系统中的安全(徐闽泽)](./Project-Security%20and%20Privacy%20in%20Real-world%20LLM-Based%20Systems/)
 5. [近似最邻近搜索在大模型中的应用（赵可泰，陈力峥）](./Project-ANNS-and-LLM/README.md)
-
+6. [Speculative Decoding for Efficient LLM Inference（刘复良，张中辉，李世鹏）](./Project-Speculative-Decoding-for-Efficient-LLM-Inference/README.md)
 
 
 ## 学术诚信
