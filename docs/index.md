@@ -82,6 +82,7 @@
 5. [近似最邻近搜索在大模型中的应用（赵可泰，陈力峥）](./Project-ANNS-and-LLM/README.md)
 6. [Speculative Decoding for Efficient LLM Inference（刘复良，张中辉，李世鹏）](./Project-Speculative-Decoding-for-Efficient-LLM-Inference/README.md)
 7. [Graph Learning（王智彬）](./Project-Graph-Learning/README.md)
+8. [大模型集合通信加速（崔正奇）](./Project from 崔正奇/README.md)
 
 
 ## 学术诚信
