@@ -17,7 +17,7 @@
 
 
 
-## 课程规划
+## 课程安排
 
 ### 第一周：课程介绍
 
@@ -37,10 +37,31 @@
 抽取同学汇报+论文介绍
 
 
-#### 王梓博，周宇航介绍研究内容
+#### 王梓博介绍研究内容
 基于内存池优化的LLM推理系统（汇报人：王梓博）📊 [**Slides1**](./Project from 王梓博/大模型推理流程介绍.pdf) 📊 [**Slides2**](./Project from 王梓博/fast25-Mooncake.pdf)
 
+#### 周宇航介绍研究内容
 面向Ascend芯片的大规模模型训练性能剖析与系统优化 (汇报人：周宇航) 📊 [**Slides1**](./Project from 周宇航/项目介绍.pdf) 📊 [**Slides2**](./Project from 周宇航/大模型训练优化基础.pdf)
+
+### 第四周：
+
+#### 周宇航介绍研究内容（续）
+
+#### 赵可泰和陈力峥介绍向量数据库
+基于近似最近邻搜索的向量数据库知识召回系统 (汇报人：陈力峥，赵可泰) 📊 [**Slides1**](./Project-ANNS-and-LLM/ANNS_Introduction.pdf)
+
+#### 彭于波介绍大模型在通信中的应用
+
+#### 所有项目发布
+同学们在国庆节前选择好自己想参与的项目。
+
+### 第五周：
+
+#### 徐闽泽老师介绍大模型中的安全
+
+#### 赵可泰和陈力峥介绍向量数据库（续）
+
+#### 彭于波介绍大模型在通信中的应用（续）
 
 <!-- ## 课程目录
 得有课程目录，然后每节课有课程内容介绍，课程ppt，这节课相应的可选大项目，而不是这种实验的形式。
@@ -66,6 +87,8 @@
 4. [基于大型语言模型的现实世界系统中的安全(徐闽泽)](./Project-Security%20and%20Privacy%20in%20Real-world%20LLM-Based%20Systems/)
 5. [近似最邻近搜索在大模型中的应用（赵可泰，陈力峥）](./Project-ANNS-and-LLM/README.md)
 6. [Speculative Decoding for Efficient LLM Inference（刘复良，张中辉，李世鹏）](./Project-Speculative-Decoding-for-Efficient-LLM-Inference/README.md)
+7. [Graph Learning（王智彬）](./Project-Graph-Learning/README.md)
+8. [大模型集合通信加速（崔正奇）](./Project from 崔正奇/README.md)
 
 
 ## 学术诚信

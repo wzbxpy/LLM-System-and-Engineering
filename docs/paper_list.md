@@ -92,6 +92,33 @@
 
 - **AMALI: An Analytical Model for Accurately Modeling LLM Inference on Modern GPUs (2025)**
 
+---
+
+### 向量数据库方向
+
+- **Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs (2018)**  
+  
+- **DiskANN: Fast Accurate Billion-Point Nearest Neighbor Search on a Single Node (2019)**  
+  
+- **A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search (2021)**  
+  
+- **AnalyticDB-V: A Hybrid Analytical Engine Towards Query Fusion for Structured and Unstructured Data (2020)**  
+  
+- **Navigable Proximity Graph-Driven Native Hybrid Queries with Structured and Unstructured Constraints (2022)**  
+  
+- **Filtered-DiskANN: Graph Algorithms for Approximate Nearest Neighbor Search with Filters (2023)**  
+  
+- **ACORN: Performant and Predicate-Agnostic Search Over Vector Embeddings and Structured Data (2024)**  
+  
+- **Navigating Labels and Vectors: A Unified Approach to Filtered Approximate Nearest Neighbor Search (2025)**  
+  
+- **FreshDiskANN: A Fast and Accurate Graph-Based ANN Index for Streaming Similarity Search (2021)**  
+  
+- **In-Place Updates of a Graph Index for Streaming Approximate Nearest Neighbor Search (2025)**  
+
+
+---
+
 ## 内存管理（第十周）
 
 - **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving**
