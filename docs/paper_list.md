@@ -94,7 +94,7 @@
 
 ---
 
-### 向量数据库方向
+## 向量数据库方向
 
 - **Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs (2018)**  
   
