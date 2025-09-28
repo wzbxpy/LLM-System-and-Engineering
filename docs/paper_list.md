@@ -1,6 +1,6 @@
 # 论文列表
 
-## 模型架构（第三周）
+## 模型架构
 
 1. **Attention Is All You Need** (2017)
     - **作者**: Vaswani et al. (Google)
@@ -43,10 +43,10 @@
      - **作者**: Devlin et al. (Google)
      - **核心贡献**: 虽然基于Transformer Encoder，但其架构设计上的热点在于**掩码语言模型（MLM）预训练目标**和**双向上下文编码**。这种预训练架构设计使得模型能生成深度的上下文词表征，在NLP任务上取得了颠覆性的效果；与GPT（Decoder-only）并驾齐驱，开创了NLP的预训练时代，其架构思想影响深远。
 
-## 调度（第六周）
+## 调度
 **todo by lsp**
 
-## 分布式训练、推理（第八周）
+## 分布式训练、推理
 ### 分布式训练方向
 
 - **Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism (2019)**  
