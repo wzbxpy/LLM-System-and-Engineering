@@ -1,6 +1,6 @@
 # 论文列表
 
-## 模型架构
+## 模型架构（李世鹏）
 
 1. **Attention Is All You Need** (2017)
     - **作者**: Vaswani et al. (Google)
@@ -46,7 +46,7 @@
 ## 调度
 **todo by lsp**
 
-## 分布式训练、推理
+## 分布式训练、推理（周宇航）
 ### 分布式训练方向
 
 - **Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism (2019)**  
@@ -94,7 +94,7 @@
 
 ---
 
-## 向量数据库方向
+## 向量数据库方向（陈力峥，赵可泰）
 
 - **Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs (2018)**  
   
@@ -119,7 +119,7 @@
 
 ---
 
-## 内存管理（第十周）
+## 大模型内存管理（王梓博）
 
 - **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving**
 
