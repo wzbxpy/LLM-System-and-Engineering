@@ -64,7 +64,8 @@
 
 ### 第六周：
 
-#### 彭于波介绍大模型在通信中的应用（续）📊 [**Slides1**](./Project from 彭于波/大模型for通信.pdf) 📊 [**Slides2**](./Project from 彭于波/研究方向.pdf)
+#### 彭于波介绍大模型在通信中的应用（续）
+📊 [**Slides1**](./Project from 彭于波/大模型for通信.pdf) 📊 [**Slides2**](./Project from 彭于波/研究方向.pdf)
 
 #### 孟晴开老师，崔正奇介绍大模型集合通信加速
 <!-- ## 课程目录
