@@ -136,8 +136,6 @@
 
 - **HeteGen: Efficient Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices (2024)**
 
-- **FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines (2024)**
-
 - **NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference (2024)**
 
 - **MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs (2024)**
