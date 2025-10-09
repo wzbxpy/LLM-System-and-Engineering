@@ -138,16 +138,10 @@
 
 - **FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines (2024)**
 
-- **Efficient and Economic Large Language Model Inference with Attention Offloading (2024)**
-
 - **NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference (2024)**
-
-- **Pie: Pooling CPU Memory for LLM Inference (2024)**
 
 - **MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs (2024)**
 
 - **Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline (2025)**
-
-- **Efficient LLM Inference with Activation Checkpointing and Hybrid Caching (2025)**
 
 - **FlexInfer: Flexible LLM Inference with CPU Computations (2025)**
