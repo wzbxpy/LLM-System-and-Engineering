@@ -137,9 +137,11 @@
 - **HeteGen: Efficient Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices (2024)**
 
 - **NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference (2024)**
+  
+- **SpecExec: Massively Parallel Speculative Decoding for Interactive LLM Inference on Consumer Devices (2024)**
 
 - **MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs (2024)**
 
 - **Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline (2025)**
-
+  
 - **FlexInfer: Flexible LLM Inference with CPU Computations (2025)**
