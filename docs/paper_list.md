@@ -43,8 +43,31 @@
      - **作者**: Devlin et al. (Google)
      - **核心贡献**: 虽然基于Transformer Encoder，但其架构设计上的热点在于**掩码语言模型（MLM）预训练目标**和**双向上下文编码**。这种预训练架构设计使得模型能生成深度的上下文词表征，在NLP任务上取得了颠覆性的效果；与GPT（Decoder-only）并驾齐驱，开创了NLP的预训练时代，其架构思想影响深远。
 
-## 调度
-**todo by lsp**
+## 推理服务和请求调度（李世鹏）
+
+- **Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache**
+
+- **Hydragen: High-Throughput LLM Inference with Shared Prefixes**
+
+- **ZipCache: Accurate and Efficient KV Cache Quantization with Salient Token Identification**
+
+- **Optimizing Large Language Model Serving with Layer-wise KV Cache Management**
+
+- **Cache-Craft: Managing Chunk-Caches for Efficient Retrieval-Augmented Generation**
+
+- **DeepSpeed-FastGen: High-throughput Text Generation for LLMs via MII and DeepSpeed-Inference**
+
+- **BatchLLM: Optimizing Large Batched LLM Inference with Global Prefix Sharing and Throughput-oriented Token Batching**
+
+- **Efficient LLM Scheduling by Learning to Rank**
+
+- **Towards SLO-Optimized LLM Serving via Automatic Inference Engine Tuning**
+
+- **vTensor: Flexible Virtual Tensor Management for Efficient LLM Serving**
+
+- **vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention**
+
+- **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching**
 
 ## 分布式训练、推理（周宇航）
 ### 分布式训练方向
@@ -151,3 +174,47 @@
 - **Efficient LLM Inference with Activation Checkpointing and Hybrid Caching (2025)**
 
 - **FlexInfer: Flexible LLM Inference with CPU Computations (2025)**
+
+## 投机解码（李世鹏）
+
+- **Accelerating Large Language Model Decoding with Speculative Sampling (2023)**  
+
+- **Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads**
+
+- **EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty** 
+
+- **Break the Sequential Dependency of LLM Inference Using Lookahead Decoding**
+
+- **Better & Faster Large Language Models via Multi-token Prediction**
+
+- **Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling**
+
+- **KOALA: Enhancing Speculative Decoding for LLM via Multi-Layer Draft Heads with Adversarial Learning**
+
+- **Accelerated Test-Time Scaling with Model-Free Speculative Sampling**
+
+- **Fast Best-of-N Decoding via Speculative Rejection**
+
+
+## 压缩和量化（李世鹏）
+
+- **GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers**
+
+- **Accurate and Efficient Post-Training Quantization for Large Language Models**
+
+- **QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving**
+
+- **Matmul or No Matmul in the Era of 1-bit LLMs**
+
+- **BitNet a4.8: 4-bit Activations for 1-bit LLMs**
+
+- **BitNet v2: Native 4-bit Activations with Hadamard Transformation for 1-bit LLMs**
+
+- **GuidedQuant: Large Language Model Quantization via Exploiting End Loss Guidance**
+
+- **KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction**
+
+- **DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs**
+
+- **Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention**
+
