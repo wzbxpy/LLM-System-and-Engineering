@@ -196,6 +196,13 @@
 
 ### 多模态通感一体化方向
 - **Simac: A semantic-driven integrated multimodal sensing and communication framework (2025)**
+
+- **Large Language Model Based Multi-Objective Optimization for Integrated Sensing and Communications in UAV Networks (2025)**
+
+- **Large Language Models Empower Multimodal Integrated Sensing and Communication (2025)**
+
+- **Intelligent Multi-Modal Sensing-Communication Integration: Synesthesia of Machines (2024)**
+  
 ---
 
 ## 投机解码（李世鹏）
