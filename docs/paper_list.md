@@ -260,6 +260,7 @@
 
 - **Fast Best-of-N Decoding via Speculative Rejection**
 
+---
 
 ## 压缩和量化（李世鹏）
 
@@ -283,3 +284,57 @@
 
 - **Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention**
 
+---
+
+## 大模型训练加速（崔正奇）
+### 在网计算相关
+
+- **ATP: In-network Aggregation for Multi-tenant Learning (NSDI 2021)**
+
+- **A2TP: Aggregator-aware In-network Aggregation (EuroSys 2023)**
+
+- **In-Network Aggregation with Transport Transparency (ASPLOS 2023)**
+
+---
+
+### 分布式训练
+
+- **Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism (2019)**
+
+- **Pipeline Parallelism Overview**
+
+---
+
+### 拥塞控制
+
+- **DCQCN: Data Center Quantized Congestion Notification**
+
+- **TIMELY: RTT-based Congestion Control for Datacenter Networks**
+
+---
+
+## 网络协议栈优化与eBPF（章振辉）
+
+## 高性能TCP协议栈
+
+- **Understanding Host Network Stack Overheads (SIGCOMM 2021)**
+
+- **Towards $\mu$s Tail Latency and Terabit Ethernet: Disaggregating the Host Network Stack (SIGCOMM 2022)**
+
+- **High-throughput and Flexible Host Networking for Accelerated Computing (OSDI 2024)**
+
+- **FlexTOE: Flexible TCP Offload with Fine-Grained Parallelism (NSDI 2022)**
+
+- **TAS: TCP Acceleration as an OS Service (EuroSys 2019)**
+
+---
+
+### eBPF
+
+- **The eXpress data path: fast programmable packet processing in the operating system kernel (ConNEXT 2018)**
+
+- **eTran: Extensible Kernel Transport with eBPF (NSDI 2025)**
+
+- **FetchBPF: Customizable Prefetching Policies in Linux with eBPF (ATC 2024)**
+
+- **NetEdit: An Orchestration Platform for eBPF Network Functions at Scale (SIGCOMM 2024)**
