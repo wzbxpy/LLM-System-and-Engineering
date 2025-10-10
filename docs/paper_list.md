@@ -142,7 +142,9 @@
 
 ---
 
-## 大模型内存管理（王梓博）
+## 大模型内存管理
+
+### kv cache管理
 
 - **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving**
 
@@ -150,11 +152,25 @@
 
 - **CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion**
 
----
+- **KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider**
+
+### 训练内存卸载
+- **vDNN: Virtualized deep neural networks for scalable, memory-efficient neural network design**
+
+- **Superneurons: dynamic GPU memory management for training deep neural networks**
+
+- **Swapadvisor: Pushing deep learning beyond the gpu memory limit via smart swapping**
+
+- **Capuchin: Tensor-based gpu memory management for deep learning**
+
+- **Sentinel: Efficient tensor migration and allocation on heterogeneous memory systems for deep learning**
+
+- **ZeRO-Offload: Democratizing Billion-Scale Model Training**
+
+- **PatrickStar: Parallel Training of Pre-trained Models via Chunk-based Dynamic Memory Management**
 
 
-## 卸载推理系统
-
+### 卸载推理系统
 - **FlexGen: high-throughput generative inference of large language models with a single GPU (2023)**
 
 - **HeteGen: Efficient Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices (2024)**
@@ -168,6 +184,25 @@
 - **Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline (2025)**
   
 - **FlexInfer: Flexible LLM Inference with CPU Computations (2025)**
+
+---
+
+## 计算通信 Overlap 优化
+
+- **FLUX: Fast Software-based Communication Overlap On GPUs Through Kernel Fusion**
+
+- **Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts**
+
+- **TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives**
+
+- **Triton-distributed: Programming Overlapping Kernels on Distributed AI Systems with the Triton Compiler**
+
+- **Efficient and Adaptable Overlapping for Computation and Communication via Signaling and Reordering**
+
+- **Characterizing Compute-Communication Overlap in GPU-Accelerated Distributed Deep Learning: Performance and Power Implications**
+
+- **FlashDMoE: Fast Distributed MoE in a Single Kernel**
+
 
 ---
 
