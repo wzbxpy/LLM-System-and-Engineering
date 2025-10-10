@@ -155,3 +155,21 @@
 - **HybridFlow: A Flexible and Efficient RLHF Framework (2025)**
   
 - **Optimizing RLHF Training for Large Language Models with Stage Fusion (2025)**
+
+
+## 大模型 for 通信（彭于波）
+### 语义通信方向
+
+- **Large AI model empowered multimodal semantic communications (2024)**  
+
+- **Large language model enhanced multi-agent systems for 6G communications (2024)**
+
+- **Large AI model-based semantic communications (2024)**  
+   
+- **Large generative model assisted 3D semantic communication (2024)**  
+
+---
+
+### 多模态通感一体化方向
+- **Simac: A semantic-driven integrated multimodal sensing and communication framework (2025)**
+---
