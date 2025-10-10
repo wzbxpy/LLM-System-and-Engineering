@@ -145,3 +145,13 @@
 - **Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline (2025)**
   
 - **FlexInfer: Flexible LLM Inference with CPU Computations (2025)**
+
+---
+
+## 强化学习
+
+- **ReaL: Efficient RLHF Training of Large Language Models with Parameter Reallocation (2025)**
+  
+- **HybridFlow: A Flexible and Efficient RLHF Framework (2025)**
+  
+- **Optimizing RLHF Training for Large Language Models with Stage Fusion (2025)**
