@@ -159,21 +159,44 @@
 
 - **HeteGen: Efficient Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices (2024)**
 
-- **FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines (2024)**
-
-- **Efficient and Economic Large Language Model Inference with Attention Offloading (2024)**
-
 - **NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference (2024)**
-
-- **Pie: Pooling CPU Memory for LLM Inference (2024)**
+  
+- **SpecExec: Massively Parallel Speculative Decoding for Interactive LLM Inference on Consumer Devices (2024)**
 
 - **MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs (2024)**
 
 - **Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline (2025)**
-
-- **Efficient LLM Inference with Activation Checkpointing and Hybrid Caching (2025)**
-
+  
 - **FlexInfer: Flexible LLM Inference with CPU Computations (2025)**
+
+---
+
+## 强化学习
+
+- **ReaL: Efficient RLHF Training of Large Language Models with Parameter Reallocation (2025)**
+  
+- **HybridFlow: A Flexible and Efficient RLHF Framework (2025)**
+  
+- **Optimizing RLHF Training for Large Language Models with Stage Fusion (2025)**
+
+---
+
+## 大模型 for 通信（彭于波）
+### 语义通信方向
+
+- **Large AI model empowered multimodal semantic communications (2024)**  
+
+- **Large language model enhanced multi-agent systems for 6G communications (2024)**
+
+- **Large AI model-based semantic communications (2024)**  
+   
+- **Large generative model assisted 3D semantic communication (2024)**  
+
+---
+
+### 多模态通感一体化方向
+- **Simac: A semantic-driven integrated multimodal sensing and communication framework (2025)**
+---
 
 ## 投机解码（李世鹏）
 
