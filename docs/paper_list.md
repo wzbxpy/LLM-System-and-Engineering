@@ -119,11 +119,37 @@
 
 ## 向量数据库方向（陈力峥，赵可泰）
 
+### ANNS 算法
+
+#### Graph-based ANNS
+
+- **Approximate nearest neighbor algorithm based on navigable small world graphs (2014)**
+
 - **Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs (2018)**  
   
 - **DiskANN: Fast Accurate Billion-Point Nearest Neighbor Search on a Single Node (2019)**  
   
-- **A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search (2021)**  
+- **A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search (2021)** 
+
+#### Quantization-based ANNS
+
+- **Product quantization for nearest neighbor search (2010)**
+
+- **Knowledge Distillation for High Dimensional Search Index (2024)**
+
+#### Tree-based ANNS
+
+- **Scalable Nearest Neighbor Algorithms for High Dimensional Data (2020)**
+
+- **Adaptive Indexing in High-Dimensional Metric Spaces (2023)**
+
+#### Hash-based ANNS
+
+- **Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in High Dimensions (2008)**
+  
+- **DB-LSH: Locality-Sensitive Hashing with Query-based Dynamic Bucketing (2023)**
+
+### ANNS 混合检索 
   
 - **AnalyticDB-V: A Hybrid Analytical Engine Towards Query Fusion for Structured and Unstructured Data (2020)**  
   
@@ -134,6 +160,10 @@
 - **ACORN: Performant and Predicate-Agnostic Search Over Vector Embeddings and Structured Data (2024)**  
   
 - **Navigating Labels and Vectors: A Unified Approach to Filtered Approximate Nearest Neighbor Search (2025)**  
+
+### 流式 ANNS
+
+- **AnalyticDB-V: A Hybrid Analytical Engine Towards Query Fusion for Structured and Unstructured Data (2020)**  
   
 - **FreshDiskANN: A Fast and Accurate Graph-Based ANN Index for Streaming Similarity Search (2021)**  
   
