@@ -184,6 +184,8 @@
 
 - **KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider**
 
+- **SparseServe: Unlocking Parallelism for Dynamic Sparse Attention in Long-Context LLM Serving**
+
 ### 训练内存卸载
 - **vDNN: Virtualized deep neural networks for scalable, memory-efficient neural network design**
 
