@@ -70,6 +70,12 @@
 
 - **Recycle: Resilient Training of Large DNNs using Pipeline Adaptation (2024)**
 
+- **Training language models to follow instructions with human feedback (2022)**
+
+- **DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning (2025)**
+
+- **A Survey of Reinforcement Learning for Large Reasoning Models (2025)**
+
 ### 分布式推理方向
 - **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)**  
 
@@ -90,6 +96,8 @@
 - **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving (2024)**
 
 - **MegaScale-Infer: Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism (2025)**  
+
+- **Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding (2025)**
 
 - **LLMCompass: Enabling Efficient Hardware Design for Large Language Model Inference (2024)**
 
