@@ -99,4 +99,6 @@
 本课程严格遵守学术诚信原则，学术不端行为，如抄袭公开发表的论文，将直接挂科。
 
 ## 其他相关课程
-可以看stanford的网课[cs336](https://stanford-cs336.github.io/spring2025/)。
+大模型系统基础可以看[cs336](https://stanford-cs336.github.io/spring2025/)。
+Diffusion及相关生成视频可以看[cs236](https://deepgenerativemodels.github.io/)
+Graph learning可以看[cs224w](https://web.stanford.edu/class/cs224w/)
