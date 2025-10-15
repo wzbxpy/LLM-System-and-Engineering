@@ -113,6 +113,7 @@
 本课程严格遵守学术诚信原则，学术不端行为，如抄袭公开发表的论文，将直接挂科。
 
 ## 其他相关课程
-- 大模型系统基础可以看[cs336](https://stanford-cs336.github.io/spring2025/)
+- 大模型系统0基础可以看[cs336](https://stanford-cs336.github.io/spring2025/)
+- 两门陈天奇开的课程针对深度学习的[deep learning systems](https://dlsyscourse.org/)和针对大模型的[machine learning systems](https://mlsyscourse.org/)
 - Diffusion及相关生成视频可以看[cs236](https://deepgenerativemodels.github.io/)
 - Graph learning可以看[cs224w](https://web.stanford.edu/class/cs224w/)
