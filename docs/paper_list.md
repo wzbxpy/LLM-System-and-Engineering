@@ -370,3 +370,33 @@
 - **FetchBPF: Customizable Prefetching Policies in Linux with eBPF (ATC 2024)**
 
 - **NetEdit: An Orchestration Platform for eBPF Network Functions at Scale (SIGCOMM 2024)**
+
+---
+
+## Related Papers in SOSP25
+### LLM Training
+
+- **Robust LLM Training Infrastructure at ByteDance (SOSP2025)**
+
+- **Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters (SOSP2025)**
+
+- **DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism (SOSP2025)**
+
+- **TrainVerify: Equivalence-Based Verification for Distributed LLM Training (SOSP2025)**
+
+- **Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training (SOSP2025)**
+
+
+### LLM Inference
+
+- **Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference (SOSP2025)**
+
+- **IC-Cache: Efficient Large Language Model Serving via In-context Caching (SOSP2025)**
+
+- **PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications (SOSP2025)**
+
+- **Pie: A Programmable Serving System for Emerging LLM Applications (SOSP2025)**
+
+- **DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction (SOSP2025)**
+
+- **Jenga: Effective Memory Management for Serving LLM with Heterogeneity  (SOSP2025)**
