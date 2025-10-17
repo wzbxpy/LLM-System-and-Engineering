@@ -111,7 +111,7 @@
 3. [大模型训练与推理性能优化（周宇航）](./Project from 周宇航/README.md)
 4. [基于大型语言模型的现实世界系统中的安全(徐闽泽)](./Project-Security%20and%20Privacy%20in%20Real-world%20LLM-Based%20Systems/)
 5. [近似最邻近搜索在大模型中的应用（赵可泰，陈力峥）](./Project-ANNS-and-LLM/README.md)
-6. [Speculative Decoding for Efficient LLM Inference（刘复良，张中辉，李世鹏）](./Project-Speculative-Decoding-for-Efficient-LLM-Inference/README.md)
+6. [Speculative Decoding for Efficient LLM Inference（刘复良，李世鹏）](./Project-Speculative-Decoding-for-Efficient-LLM-Inference/README.md)
 7. [Graph Learning（王智彬）](./Project-Graph-Learning/README.md)
 8. [大模型集合通信加速（崔正奇）](./Project from 崔正奇/README.md)
 
