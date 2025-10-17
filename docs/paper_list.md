@@ -119,11 +119,37 @@
 
 ## 向量数据库方向（陈力峥，赵可泰）
 
+### ANNS 算法
+
+#### Graph-based ANNS
+
+- **Approximate nearest neighbor algorithm based on navigable small world graphs (2014)**
+
 - **Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs (2018)**  
   
 - **DiskANN: Fast Accurate Billion-Point Nearest Neighbor Search on a Single Node (2019)**  
   
-- **A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search (2021)**  
+- **A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search (2021)** 
+
+#### Quantization-based ANNS
+
+- **Product quantization for nearest neighbor search (2010)**
+
+- **Knowledge Distillation for High Dimensional Search Index (2024)**
+
+#### Tree-based ANNS
+
+- **Scalable Nearest Neighbor Algorithms for High Dimensional Data (2020)**
+
+- **Adaptive Indexing in High-Dimensional Metric Spaces (2023)**
+
+#### Hash-based ANNS
+
+- **Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in High Dimensions (2008)**
+  
+- **DB-LSH: Locality-Sensitive Hashing with Query-based Dynamic Bucketing (2023)**
+
+### ANNS 混合检索 
   
 - **AnalyticDB-V: A Hybrid Analytical Engine Towards Query Fusion for Structured and Unstructured Data (2020)**  
   
@@ -134,6 +160,10 @@
 - **ACORN: Performant and Predicate-Agnostic Search Over Vector Embeddings and Structured Data (2024)**  
   
 - **Navigating Labels and Vectors: A Unified Approach to Filtered Approximate Nearest Neighbor Search (2025)**  
+
+### 流式 ANNS
+
+- **AnalyticDB-V: A Hybrid Analytical Engine Towards Query Fusion for Structured and Unstructured Data (2020)**  
   
 - **FreshDiskANN: A Fast and Accurate Graph-Based ANN Index for Streaming Similarity Search (2021)**  
   
@@ -142,7 +172,9 @@
 
 ---
 
-## 大模型内存管理（王梓博）
+## 大模型内存管理
+
+### kv cache管理
 
 - **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving**
 
@@ -150,11 +182,27 @@
 
 - **CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion**
 
----
+- **KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider**
+
+- **SparseServe: Unlocking Parallelism for Dynamic Sparse Attention in Long-Context LLM Serving**
+
+### 训练内存卸载
+- **vDNN: Virtualized deep neural networks for scalable, memory-efficient neural network design**
+
+- **Superneurons: dynamic GPU memory management for training deep neural networks**
+
+- **Swapadvisor: Pushing deep learning beyond the gpu memory limit via smart swapping**
+
+- **Capuchin: Tensor-based gpu memory management for deep learning**
+
+- **Sentinel: Efficient tensor migration and allocation on heterogeneous memory systems for deep learning**
+
+- **ZeRO-Offload: Democratizing Billion-Scale Model Training**
+
+- **PatrickStar: Parallel Training of Pre-trained Models via Chunk-based Dynamic Memory Management**
 
 
-## 卸载推理系统
-
+### 卸载推理系统
 - **FlexGen: high-throughput generative inference of large language models with a single GPU (2023)**
 
 - **HeteGen: Efficient Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices (2024)**
@@ -168,6 +216,25 @@
 - **Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline (2025)**
   
 - **FlexInfer: Flexible LLM Inference with CPU Computations (2025)**
+
+---
+
+## 计算通信 Overlap 优化
+
+- **FLUX: Fast Software-based Communication Overlap On GPUs Through Kernel Fusion**
+
+- **Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts**
+
+- **TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives**
+
+- **Triton-distributed: Programming Overlapping Kernels on Distributed AI Systems with the Triton Compiler**
+
+- **Efficient and Adaptable Overlapping for Computation and Communication via Signaling and Reordering**
+
+- **Characterizing Compute-Communication Overlap in GPU-Accelerated Distributed Deep Learning: Performance and Power Implications**
+
+- **FlashDMoE: Fast Distributed MoE in a Single Kernel**
+
 
 ---
 
@@ -196,6 +263,13 @@
 
 ### 多模态通感一体化方向
 - **Simac: A semantic-driven integrated multimodal sensing and communication framework (2025)**
+
+- **Large Language Model Based Multi-Objective Optimization for Integrated Sensing and Communications in UAV Networks (2025)**
+
+- **Large Language Models Empower Multimodal Integrated Sensing and Communication (2025)**
+
+- **Intelligent Multi-Modal Sensing-Communication Integration: Synesthesia of Machines (2024)**
+  
 ---
 
 ## 投机解码（李世鹏）
@@ -218,6 +292,7 @@
 
 - **Fast Best-of-N Decoding via Speculative Rejection**
 
+---
 
 ## 压缩和量化（李世鹏）
 
@@ -241,3 +316,87 @@
 
 - **Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention**
 
+---
+
+## 大模型训练加速（崔正奇）
+### 在网计算相关
+
+- **ATP: In-network Aggregation for Multi-tenant Learning (NSDI 2021)**
+
+- **A2TP: Aggregator-aware In-network Aggregation (EuroSys 2023)**
+
+- **In-Network Aggregation with Transport Transparency (ASPLOS 2023)**
+
+---
+
+### 分布式训练
+
+- **Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism (2019)**
+
+- **Pipeline Parallelism Overview**
+
+---
+
+### 拥塞控制
+
+- **DCQCN: Data Center Quantized Congestion Notification**
+
+- **TIMELY: RTT-based Congestion Control for Datacenter Networks**
+
+---
+
+## 网络协议栈优化与eBPF（章振辉）
+
+## 高性能TCP协议栈
+
+- **Understanding Host Network Stack Overheads (SIGCOMM 2021)**
+
+- **Towards $\mu$s Tail Latency and Terabit Ethernet: Disaggregating the Host Network Stack (SIGCOMM 2022)**
+
+- **High-throughput and Flexible Host Networking for Accelerated Computing (OSDI 2024)**
+
+- **FlexTOE: Flexible TCP Offload with Fine-Grained Parallelism (NSDI 2022)**
+
+- **TAS: TCP Acceleration as an OS Service (EuroSys 2019)**
+
+---
+
+### eBPF
+
+- **The eXpress data path: fast programmable packet processing in the operating system kernel (ConNEXT 2018)**
+
+- **eTran: Extensible Kernel Transport with eBPF (NSDI 2025)**
+
+- **FetchBPF: Customizable Prefetching Policies in Linux with eBPF (ATC 2024)**
+
+- **NetEdit: An Orchestration Platform for eBPF Network Functions at Scale (SIGCOMM 2024)**
+
+---
+
+## Related Papers in SOSP25
+### LLM Training
+
+- **Robust LLM Training Infrastructure at ByteDance (SOSP2025)**
+
+- **Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters (SOSP2025)**
+
+- **DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism (SOSP2025)**
+
+- **TrainVerify: Equivalence-Based Verification for Distributed LLM Training (SOSP2025)**
+
+- **Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training (SOSP2025)**
+
+
+### LLM Inference
+
+- **Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference (SOSP2025)**
+
+- **IC-Cache: Efficient Large Language Model Serving via In-context Caching (SOSP2025)**
+
+- **PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications (SOSP2025)**
+
+- **Pie: A Programmable Serving System for Emerging LLM Applications (SOSP2025)**
+
+- **DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction (SOSP2025)**
+
+- **Jenga: Effective Memory Management for Serving LLM with Heterogeneity  (SOSP2025)**

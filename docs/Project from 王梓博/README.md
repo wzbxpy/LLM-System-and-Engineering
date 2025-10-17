@@ -39,3 +39,5 @@ Prefix Reuse（前缀复用）是一种在大模型推理过程中提升效率�
 - **Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving**
 - **CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving**
 - **CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion**
+- **KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider**
+- **SparseServe: Unlocking Parallelism for Dynamic Sparse Attention in Long-Context LLM Serving**
