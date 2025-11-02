@@ -286,7 +286,7 @@
 
 - **Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling**
 
-- **KOALA: Enhancing Speculative Decoding for LLM via Multi-Layer Draft Heads with Adversarial Learning**
+<!-- - **KOALA: Enhancing Speculative Decoding for LLM via Multi-Layer Draft Heads with Adversarial Learning** -->
 
 - **Accelerated Test-Time Scaling with Model-Free Speculative Sampling**
 
@@ -302,7 +302,7 @@
 
 - **QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving**
 
-- **Matmul or No Matmul in the Era of 1-bit LLMs**
+<!-- - **Matmul or No Matmul in the Era of 1-bit LLMs** -->
 
 - **BitNet a4.8: 4-bit Activations for 1-bit LLMs**
 
@@ -310,7 +310,7 @@
 
 - **GuidedQuant: Large Language Model Quantization via Exploiting End Loss Guidance**
 
-- **KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction**
+<!-- - **KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction** -->
 
 - **DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs**
 
