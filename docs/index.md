@@ -34,6 +34,7 @@
 
 审稿模板已附于[作业提交网址](https://table.nju.edu.cn/dtable/forms/267ab5a3-5e36-4b09-970a-4f3ab4bc314d/)
 
+
 #### 阅读论文发布
 抽取同学汇报+论文介绍
 
@@ -85,6 +86,26 @@
 ### 第十一周(2025.11.14)：
 
 #### 李世鹏介绍仿真器Vidur
+
+### 第十二周(2025.11.21)：
+#### 小作业2发布
+以Assignment 1时的分组为单位，作为"Meta-reviewer"为其他分组同学提交的审稿意见质量进行评分。
+
+评审的要求见 [Assignment 2: 审稿意见评审](homework2/readme.md)
+
+作业提交网址：[https://box.nju.edu.cn/u/d/03237779f9644d34b8a5/](https://box.nju.edu.cn/u/d/03237779f9644d34b8a5/)
+
+截止日期：2025-12-24 20:00
+
+### 第十五周(2025.12.12)：
+#### 期末报告发布
+参与项目的同学需以项目组为单位提交期末报告（学术论文形式），可选择提交Survey或Research Paper。
+
+报告要求见 [Final Project Report](final/readme.md)
+
+报告提交网址：[https://box.nju.edu.cn/u/d/ebab750c96964dd48dc6/](https://box.nju.edu.cn/u/d/ebab750c96964dd48dc6/)
+
+截止日期：请关注课程网站通知
 <!-- ## 课程目录
 得有课程目录，然后每节课有课程内容介绍，课程ppt，这节课相应的可选大项目，而不是这种实验的形式。
 
