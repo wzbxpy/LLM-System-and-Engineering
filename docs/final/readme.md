@@ -18,9 +18,11 @@
 ### 3. 格式要求
 请参考以下学术会议的论文模板（也可负责项目的助教，老师自己给定）：
 
-- **ACM格式**：适用于系统、架构、数据库等方向（如 SOSP, OSDI, SIGMOD）
-- **IEEE格式**：适用于网络、安全等方向
-- **USENIX格式**：适用于系统与安全方向
+- [**ACM格式**](https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sigplan-proceedings-template/rfvsrhgmghtc)：适用于系统、架构、数据库等方向（如 SOSP, OSDI, SIGMOD）
+- [**IEEE格式**](https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn)：适用于网络、安全等方向
+- [**USENIX格式**](https://www.overleaf.com/latex/templates/usenix-2023/hhvnskcxstwq)：适用于系统与安全方向
+- [**ICML格式**](https://www.overleaf.com/latex/templates/icml2025-template/dhxrkcgkvnkt)：适用于机器学习、算法与理论相关的研究（如拟将工作以 ML 会议风格组织时可选）
+- 其他可能存在的会议论文模板
 
 **页数要求**：
 
